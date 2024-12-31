@@ -1,0 +1,88 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: url("https://media.discordapp.net/attachments/704408864061259827/1096638175952261220/image.png")
+    no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#survey-form {
+  width: 70vw;
+  min-width: 400px;
+  max-width: 800px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.fieldset-container {
+  border: none;
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input-field,
+.select-field,
+.textarea-field {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.select-field {
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("dropdown-icon.png");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.checkbox-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.textarea-field {
+  resize: vertical;
+}
+
+#submit {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #cc0000;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#submit:hover {
+  background-color: #ff3333;
+}

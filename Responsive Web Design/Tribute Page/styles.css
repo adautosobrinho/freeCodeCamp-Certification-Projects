@@ -1,0 +1,93 @@
+/* OSRS-Themed Styles */
+
+body {
+  font-family: "Georgia", serif;
+  background-color: #1e1b16; /* Dark brown backdrop */
+  color: #f4e5bc; /* OSRS parchment yellow */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #87b1c6; /* Blue reminiscent of partyhats */
+  margin-top: 20px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 10px auto;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+#img-div {
+  background-color: #2a211c; /* Slightly lighter brown panel */
+  border: 5px solid #614532; /* OSRS panel border */
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 150px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+#img-caption {
+  font-style: italic;
+  color: #c7a76a; /* Light gold */
+  margin-top: 10px;
+}
+
+#tribute-info {
+  background-color: #2a211c;
+  border: 5px solid #614532;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1000px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+h3 {
+  font-size: 1.8rem;
+  color: #d4b98a; /* OSRS beige */
+  text-shadow: 1px 1px 3px #000000;
+  margin-bottom: 15px;
+}
+
+ul {
+  text-align: left;
+  list-style-type: square;
+  padding: 10px 20px;
+}
+
+li {
+  font-size: 1.1rem;
+  margin: 8px 0;
+  color: #e4d3b4; /* Slightly lighter parchment color */
+}
+
+#tribute-link {
+  color: #87b1c6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#tribute-link:hover {
+  text-decoration: underline;
+  color: #d4b98a;
+}
+
+#main {
+  padding: 20px;
+  box-sizing: border-box;
+}
